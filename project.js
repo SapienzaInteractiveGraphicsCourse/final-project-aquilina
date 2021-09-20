@@ -865,7 +865,7 @@ function init(){
 
     const loaderChickGltf = new GLTFLoader();
 
-    loaderChickGltf.load('/low_poly_chick/scene.gltf',function(gltfChick){
+    loaderChickGltf.load('./low_poly_chick/scene.gltf',function(gltfChick){
 
         objectChick = gltfChick.scene;
         objectChick.scale.set(15, 15 , 15);
