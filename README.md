@@ -1,3 +1,2 @@
-# final-project-aquilina
-final-project-aquilina created by GitHub Classroom  
-https://sapienzainteractivegraphicscourse.github.io/final-project-aquilina/
+# final-project-aquilina  
+Link to the project: https://sapienzainteractivegraphicscourse.github.io/final-project-aquilina/
