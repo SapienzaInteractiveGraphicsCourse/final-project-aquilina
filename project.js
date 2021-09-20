@@ -823,7 +823,7 @@ function init(){
 
     const loaderLightHouseGLTF = new GLTFLoader();
 
-    loaderLightHouseGLTF.load('/lightHouse/scene.gltf', function(gltfHouse){
+    loaderLightHouseGLTF.load('/lightHouseU/scene.gltf', function(gltfHouse){
 
         const objectHouse = gltfHouse.scene;
         objectHouse.castShadow = true;
