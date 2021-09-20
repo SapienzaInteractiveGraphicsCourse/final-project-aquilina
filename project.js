@@ -823,7 +823,7 @@ function init(){
 
     const loaderLightHouseGLTF = new GLTFLoader();
 
-    loaderLightHouseGLTF.load('/final-project-aquilina/lightHouse/scene.gltf', function(gltfHouse){
+    loaderLightHouseGLTF.load('./lightHouse/scene.gltf', function(gltfHouse){
 
         const objectHouse = gltfHouse.scene;
         objectHouse.castShadow = true;
@@ -915,7 +915,7 @@ function init(){
 
     const loaderBirdgGltf = new GLTFLoader();
 
-    loaderBirdgGltf.load('/low_poly_bird/scene.gltf', function(gltf){
+    loaderBirdgGltf.load('./low_poly_bird/scene.gltf', function(gltf){
 
         gltf.scene.castShadow = true;
         objectBird = gltf.scene;
@@ -939,7 +939,7 @@ function init(){
 
     const loaderFBX = new FBXLoader();
 
-    loaderFBX.load('/human-model/xbot.fbx', function(object){
+    loaderFBX.load('./human-model/xbot.fbx', function(object){
 
         
         object.scale.set(0.2, 0.2, 0.2);
